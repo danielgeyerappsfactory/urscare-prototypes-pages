@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Urs Care · Prototypen</title>
+  <style>
+    * { box-sizing: border-box; }
+    body { margin: 0; min-height: 100dvh; display: grid; place-items: center; padding: 24px; font: 16px/1.5 system-ui, sans-serif; color: #24342e; background: #f3f6f4; }
+    main { width: 100%; max-width: 640px; }
+    .brand { color: #397256; font-weight: 700; letter-spacing: .03em; }
+    h1 { margin: 0 0 8px; font-size: 32px; }
+    p { color: #58675f; }
+    nav { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px; margin-top: 32px; }
+    a { display: block; padding: 28px; color: inherit; text-decoration: none; background: white; border: 1px solid #dce5df; border-radius: 16px; }
+    a:hover { border-color: #397256; }
+    a:focus-visible { outline: 3px solid #78b495; outline-offset: 3px; }
+    strong { display: block; font-size: 22px; }
+    span { display: block; margin-top: 12px; color: #397256; }
+  </style>
+</head>
+<body>
+  <main>
+    <p class="brand">Urs Care</p>
+    <h1>Prototypen</h1>
+    <p>Wähle eine Anwendung. Zum Öffnen benötigst du das gemeinsame Passwort.</p>
+    <nav aria-label="Anwendung auswählen">
+      <a href="./innendienst/"><strong>Innendienst</strong><span>Prototyp öffnen →</span></a>
+      <a href="./aussendienst/"><strong>Außendienst</strong><span>Prototyp öffnen →</span></a>
+    </nav>
+  </main>
+</body>
+</html>
